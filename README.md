@@ -3,13 +3,14 @@
 Source code to reproduce the paper "Network-based machine-learning in bladder and colorectal organoid models predicts anti-cancer drug efficacy in patients", Kong et al
 
 # Requirements
-- pandas
-- matplotlib
-- numpy
-- scipy
-- sklearn
-- lifelines
-- gseapy
+- python (2.7.13)
+- pandas (0.24.2)
+- matplotlib (2.0.0)
+- numpy (1.16.6)
+- scipy (1.2.2)
+- sklearn (0.20.2)
+- lifelines (0.19.5)
+- gseapy 
 
 
 # Code (for python)
