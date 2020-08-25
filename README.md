@@ -18,7 +18,7 @@ Source code to reproduce the paper "Network-based machine-learning in bladder an
 - "multiple_pathway_prediction.py" to predict drug response in cancer patients using multiple pathways
 
 # Demo
-Code for drug response prediction for 5fluorouracil-treated colorectal cancer patients using colorectal cancer organoids are provided
+Code for drug response prediction of 5fluorouracil-treated colorectal cancer patients using colorectal cancer organoids
 
 
 # Network proximity was calculated using codes from
