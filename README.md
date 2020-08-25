@@ -1,6 +1,6 @@
 # organoid_biomarker_detection
 # Network-based biomarker detection from organoid models to predict drug response in cancer patients
-Source code to reproduce the paper "Network-based machine-learning in bladder and colorectal organoid models predicts anti-cancer drug efficacy in patients", Kong et al
+Source code to reproduce the paper "Network-based machine-learning in colorectal and bladder organoid models predicts anti-cancer drug efficacy in patients", Kong et al
 
 # Requirements
 - python (2.7.13)
