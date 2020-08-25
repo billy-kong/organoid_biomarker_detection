@@ -14,7 +14,8 @@ Source code to reproduce the paper "Network-based machine-learning in colorectal
 
 # Installation instruction
 All python packages can be installed via pip (https://pypi.org/project/pip/).
-e.g. pip install <package name>
+
+e.g. pip install [package name].
 Installations would take few minutes for each python package.
 
 # Code (for python)
