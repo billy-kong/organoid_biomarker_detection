@@ -13,10 +13,9 @@ Source code to reproduce the paper "Network-based machine-learning in colorectal
 - gseapy 
 
 # Installation instruction
-All python packages can be installed via pip (https://pypi.org/project/pip/).
-
-e.g. pip install [package name].
-Installations would take few minutes for each python package.
+- All python packages can be installed via pip (https://pypi.org/project/pip/).
+- e.g. pip install [package name].
+- Installations would take few minutes for each python package.
 
 # Code (for python)
 - "run_ssGSEA.py" to generate pathway level expression profiles using single sample GSEA (ssGSEA) tool (gseapy)
@@ -24,9 +23,9 @@ Installations would take few minutes for each python package.
 - "multiple_pathway_prediction.py" to predict drug response in cancer patients using multiple pathways
 
 # Demo
-Code for drug response prediction of 5fluorouracil-treated colorectal cancer patients using colorectal cancer organoids
-Expected results are provided under "./python/results/" folder.
-The majority of the code runs within several minutes, with the execption of "run_ssGSEA.py", which may take several hours depending on the size of a sample cohort.
+- Code for drug response prediction of 5fluorouracil-treated colorectal cancer patients using colorectal cancer organoids
+- Expected results are provided under "./python/results/" folder.
+- The majority of the code runs within several minutes, with the execption of "run_ssGSEA.py", which may take several hours depending on the size of a sample cohort.
 
 
 # Network proximity was calculated using codes from
