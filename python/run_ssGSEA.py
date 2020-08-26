@@ -17,7 +17,7 @@ os.chdir(cur_dir)
 ## INITIALIZE
 #======================
 # INITIALIZE PARAMETERS
-source = 'TCGA' # 'organoid', 'TCGA', 'GDSC'
+source = 'organoid' # 'organoid', 'TCGA'
 cancer_type = 'COAD'
 testing_pathway_list = ['REACTOME']
 
