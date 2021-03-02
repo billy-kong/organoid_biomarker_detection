@@ -9,7 +9,7 @@ from collections import defaultdict
 cur_dir = os.getcwd()
 os.chdir('../utilities')
 execfile('pathway_utilities.py', globals())
-execfile('parse_preclinical_data.py', globals())
+execfile('parse_preclinical_model_data.py', globals())
 execfile('parse_patient_expression.py', globals())
 gene2uniprot, uniprot2gene = geneID2uniprot(), uniprot2geneID()
 os.chdir(cur_dir)
