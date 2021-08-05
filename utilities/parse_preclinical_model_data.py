@@ -70,10 +70,10 @@ def parse_coad_organoid_transcriptome():
 	output2 = { sample : { uniprot : exp } }
 	'''
 	current_dir = os.getcwd()
-	os.chdir('/home/junghokong/PROJECT/colon_cancer/code/1_drugResponsePrediction')
+	#os.chdir('/home/junghokong/PROJECT/colon_cancer/code/1_drugResponsePrediction')
 	execfile('parse_COAD_organoid_data.py', globals())
 	output, output2 = return_COAD_2015_cell_organoid_RMA_normalized_expression()
-	os.chdir(current_dir)
+	#os.chdir(current_dir)
 	return output, output2
 
 
@@ -87,9 +87,9 @@ def parse_coad_organoid_drug_response( response_unit ):
 	median IC50 values from di/triplicates are returned
 	'''
 	current_dir = os.getcwd()
-	os.chdir('/home/junghokong/PROJECT/colon_cancer/code/1_drugResponsePrediction')
+	#os.chdir('/home/junghokong/PROJECT/colon_cancer/code/1_drugResponsePrediction')
 	execfile('parse_COAD_organoid_data.py', globals())
 	if response_unit == 'IC50':
 		output, drugList = return_COAD_organoid_drug_response_IC50()
-	os.chdir(current_dir)
+	#os.chdir(current_dir)
 	return output, drugList
